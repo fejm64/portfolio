@@ -1,4 +1,5 @@
 :root {
+    --platitnum: #E5E5E5;
     --silver-light: #D8D8D8;
     --black: #000;
     --gray-spanish: #999;
@@ -7,10 +8,39 @@
     --gray-granite: #666;
     --gray: #7E7C7C;
     --dark-charcoal: #2E2E2E;
-    --gray-bright: #EDEDED;   
+    --gray-bright: #EDEDED;
+    --white: #FFF;   
 }
   
 body {
     font-family: 'Poppins', sans-serif;
 }
-  
+
+.container {
+    justify-content: center;
+    max-width: 1440px;
+    margin: 0 auto;
+    background-color: var(--white);
+}
+
+.header, .footer {
+    padding-left: 200px;
+    padding-right: 119px;
+    background-color: var(--silver-light);
+}
+
+.header-menu {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    padding-top: 60.5px;
+}
+
+.header-menu-item {
+    font-size: 16px;
+    line-height: 24px;
+    font-weight: 500;
+    letter-spacing: 6.33143px;
+    text-transform: uppercase;
+    padding-left: 66px;
+}
