@@ -1,7 +1,9 @@
 :root {
     --platitnum: #E5E5E5;
     --silver-light: #D8D8D8;
+    --silver-light-rgb: 216, 216, 216;
     --black: #000;
+    --black-rgb: 0, 0, 0;
     --gray-spanish: #999;
     --silver-dark: #6D6D6D;
     --rose-misty: #FFE8E8;
@@ -26,7 +28,7 @@ body {
 .header, .footer {
     padding-left: 200px;
     padding-right: 119px;
-    background-color: var(--silver-light);
+    background-color: rgba(var(--silver-light-rgb), .22);
 }
 
 .header-menu {
@@ -34,13 +36,97 @@ body {
     flex-direction: row;
     justify-content: flex-end;
     padding-top: 60.5px;
+    margin-bottom: 99.5px;
 }
 
 .header-menu-item {
     font-size: 16px;
     line-height: 24px;
     font-weight: 500;
-    letter-spacing: 6.33143px;
+    letter-spacing: 6.33px;
     text-transform: uppercase;
     padding-left: 66px;
+    color: var(--black)
+}
+
+.header-presentation-wrap {
+    display: flex;
+    flex-direction: row;
+}
+
+.header-presentation-salutation {
+    /* Para ser fiel ao display foi necessário acescentar 2px no width */
+    max-width: 435px;
+    padding-right: 60px;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 100px;
+    line-height: 150px;
+    color: var(--gray-spanish);
+}
+
+.header-presentation-description { 
+    max-width: 544px;
+    padding-left: 74px; 
+    padding-top: 239.5;
+    border-left: 1px solid var(--silver-light);    
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 36px;
+    letter-spacing: 0.39px;
+    color: var(--silver-dark);
+}
+
+.header-presentation-description p:first-child {
+    margin-top: 140px;
+}
+
+.header-presentation-description p:not(:first-child) {
+    margin-bottom: 33.75px;
+    
+}
+
+.header-presentation-description a {
+    text-decoration: none;
+    color: var(--silver-dark);
+}
+
+.header-presentation-description a:hover {
+    text-decoration: underline;
+}
+
+.header-presentation-description-social-media {
+    display: flex;
+    flex-direction: row;
+}
+
+.header-presentation-description-social-media li {
+    padding-right: 46px;    
+}
+
+.header-presentation-description-social-media a {
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 24px;
+    letter-spacing: 6.33px;
+    color: var(--black);
+    text-transform: uppercase;
+}
+
+.header-button {
+    width: 353px;
+    height:113px;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 36px;
+    letter-spacing: 8.3px;
+    mix-blend-mode: normal;
+    color: rgba(var(--black-rgb), .6);     
+    background-color: var(--rose-misty);
+    border: none;
+    margin-bottom: -176.5px;
+    text-transform: uppercase;
 }
