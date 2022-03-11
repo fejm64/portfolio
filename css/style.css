@@ -65,11 +65,7 @@ body {
     color: var(--gray-spanish);
 }
 
-.header-presentation-description { 
-    max-width: 544px;
-    padding-left: 74px; 
-    padding-top: 239.5;
-    border-left: 1px solid var(--silver-light);    
+.header-presentation-description {     
     font-style: normal;
     font-weight: 400;
     font-size: 18px;
@@ -78,13 +74,16 @@ body {
     color: var(--silver-dark);
 }
 
-.header-presentation-description p:first-child {
+.header-presentation-description--left-border {
+    /* Para ser fiel ao display foi necessário acescentar 3px no width */
+    max-width: 547px;
+    padding-left: 74px;
     margin-top: 140px;
+    border-left: 1px solid var(--silver-light);
 }
 
 .header-presentation-description p:not(:first-child) {
-    margin-bottom: 33.75px;
-    
+    margin-bottom: 33.75px;    
 }
 
 .header-presentation-description a {
@@ -129,4 +128,9 @@ body {
     border: none;
     margin-bottom: -176.5px;
     text-transform: uppercase;
+}
+
+.header-button:hover {
+    cursor: pointer;
+    text-decoration: underline;
 }
