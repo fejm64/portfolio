@@ -25,10 +25,24 @@ body {
     background-color: var(--white);
 }
 
+/* header e footer */
+
 .header, .footer {
     padding-left: 200px;
     padding-right: 119px;
-    background-color: rgba(var(--silver-light-rgb), .22);
+}
+
+/* header */
+
+.header nav, .header-presentation-wrap {
+    background-color: rgba(var(--silver-light-rgb), .5);
+}
+
+.header-presentation-wrap {
+    padding-bottom: 98.5px;
+    display: flex;
+    flex-direction: row;
+    position: relative;
 }
 
 .header-menu {
@@ -36,7 +50,7 @@ body {
     flex-direction: row;
     justify-content: flex-end;
     padding-top: 60.5px;
-    margin-bottom: 99.5px;
+    padding-bottom: 99.5px;
 }
 
 .header-menu-item {
@@ -47,11 +61,6 @@ body {
     text-transform: uppercase;
     padding-left: 66px;
     color: var(--black)
-}
-
-.header-presentation-wrap {
-    display: flex;
-    flex-direction: row;
 }
 
 .header-presentation-salutation {
@@ -114,9 +123,8 @@ body {
     text-transform: uppercase;
 }
 
-.header-button {
-    width: 353px;
-    height:113px;
+.header-button { 
+    display: block;      
     font-style: normal;
     font-weight: 500;
     font-size: 24px;
@@ -125,12 +133,27 @@ body {
     mix-blend-mode: normal;
     color: rgba(var(--black-rgb), .6);     
     background-color: var(--rose-misty);
-    border: none;
-    margin-bottom: -176.5px;
     text-transform: uppercase;
+    border: none;
+    padding: 40px 49px 37px 40px;
+    position: absolute;
+    bottom: -56.5px;
 }
 
 .header-button:hover {
     cursor: pointer;
     text-decoration: underline;
+}
+
+/* Work */
+
+.work {
+    padding-left: 200px;
+    padding-right: 119px;
+    background-color: var(--white);
+}
+
+.work-title {
+    margin-top: 276.5px;
+
 }
