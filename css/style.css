@@ -19,6 +19,7 @@ body {
 }
 
 .container {
+    box-sizing: border-box;
     justify-content: center;
     max-width: 1440px;
     margin: 0 auto;
@@ -30,13 +31,10 @@ body {
 .header, .footer {
     padding-left: 200px;
     padding-right: 119px;
+    background-color: rgba(var(--silver-light-rgb), .22);
 }
 
 /* header */
-
-.header nav, .header-presentation-wrap {
-    background-color: rgba(var(--silver-light-rgb), .5);
-}
 
 .header-presentation-wrap {
     padding-bottom: 98.5px;
@@ -148,12 +146,16 @@ body {
 /* Work */
 
 .work {
-    padding-left: 200px;
-    padding-right: 119px;
+    padding-right: 200px;
+    padding-left: 119px;
     background-color: var(--white);
 }
 
 .work-title {
-    margin-top: 276.5px;
-
+    margin-top: 156.5px;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 80px;
+    line-height: 120px;
+    color: var(--gray-spanish);
 }
