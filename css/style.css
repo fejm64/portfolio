@@ -333,6 +333,11 @@ body {
     color: var(--silver-dark);
 }
 
+.info-card-text-side {
+    max-width: 544px;
+    margin-bottom: 35px;
+}
+
 .about-img {
     width: 1202px;
     height: 286px;
@@ -381,6 +386,10 @@ body {
 .about-contato a {
     color: var(--dark-charcoal);
     text-decoration: none;
+}
+
+.about-contato a:hover {
+    text-decoration: underline;
 }
 
 
