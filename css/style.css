@@ -265,6 +265,11 @@ body {
 
 .projects-item {
     display: flex;
+    margin-bottom: 118px;
+}
+
+.projects-item:last-child {
+    margin-bottom: 0px;
 }
 
 .projects-item:nth-child(odd) {
@@ -276,8 +281,7 @@ body {
     width: 662px;
     height: 590px;
     object-fit: cover;
-    margin-right: 80px;
-    margin-bottom: 120px;    
+    margin-right: 80px;      
 }
 
 .projects-item:nth-child(odd) .projects-item-img {
@@ -304,6 +308,7 @@ body {
     letter-spacing: 0.385714px;
     color: var(--silver-dark)
 }
+
 
 
 
