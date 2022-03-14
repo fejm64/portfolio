@@ -160,7 +160,12 @@ body {
     color: var(--gray-spanish);
 }
 
-.work-item-title h3 {
+.work-item {
+    display: flex;
+    justify-content: space-between;
+}
+
+.work-item-title-name {
     font-style: normal;
     font-weight: 500;
     font-size: 30px;
@@ -169,7 +174,7 @@ body {
     color: var(--silver-dark);
 }
 
-.work-item-title span {
+.work-item-title-date {
     font-style: normal;
     font-weight: 500;
     font-size: 18px;
@@ -180,12 +185,7 @@ body {
     opacity: 0.6;
 }
 
-.work-item {
-    display: flex;
-    justify-content: space-between;
-}
-
-.work-item-description span {
+.work-item-description-text {
     font-style: normal;
     font-weight: 400;
     font-size: 18px;
@@ -194,7 +194,7 @@ body {
     color: var(--silver-dark)
 }
 
-.work-item-description ul {
+.work-item-description-skills {
     display: flex;
     font-style: normal;
     font-weight: 500;
