@@ -273,8 +273,7 @@ body {
 }
 
 .projects-item:nth-child(odd) {
-    flex-direction: row-reverse;
-    
+    flex-direction: row-reverse;    
 }
 
 .projects-item-img {
@@ -308,6 +307,83 @@ body {
     letter-spacing: 0.385714px;
     color: var(--silver-dark)
 }
+
+.about {
+    position: relative;
+    margin-top: 102px;
+    padding-left: 119px;
+    padding-right: 119px;
+    margin-bottom: 34px;
+}
+
+.about-title {
+    font-style: normal;
+    font-weight: 700;
+    font-size: 80px;
+    line-height: 120px;
+    color: var(--gray-spanish);
+}
+
+.about-text {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 36px;
+    letter-spacing: 0.39px;
+    color: var(--silver-dark);
+}
+
+.about-img {
+    width: 1202px;
+    height: 286px;
+    object-fit: cover;    
+    margin-top: 60px;
+    margin-bottom: 60px;
+}
+
+.about-contato {  
+    position: absolute;
+    right: 239px;
+    top: 570px;
+    box-sizing: border-box;
+    width: 430px;
+    height: 276px;
+    padding-top: 40px;
+    background-color: var(--rose-misty);
+}
+
+.about-contato-title {
+    margin-left: 40px;
+    margin-bottom: 3px;
+    display: block;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 24px;
+    letter-spacing: 6.33px;
+    color: var(--gray);
+    mix-blend-mode: normal;
+    opacity: 0.6;
+}
+
+.about-contato-info {
+    margin-left: 40px;
+    margin-bottom: 18px;
+    display: block;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 27px;
+    letter-spacing: 0.39px;
+    color: var(--dark-charcoal);
+}
+
+.about-contato a {
+    color: var(--dark-charcoal);
+    text-decoration: none;
+}
+
+
 
 
 
