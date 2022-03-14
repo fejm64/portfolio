@@ -36,13 +36,6 @@ body {
 
 /* header */
 
-.header-presentation-wrap {
-    padding-bottom: 98.5px;
-    display: flex;
-    flex-direction: row;
-    position: relative;
-}
-
 .header-menu {
     display: flex;
     flex-direction: row;
@@ -61,6 +54,13 @@ body {
     color: var(--black)
 }
 
+.header-presentation {
+    padding-bottom: 98.5px;
+    display: flex;
+    flex-direction: row;
+    position: relative;
+}
+
 .header-presentation-salutation {
     /* Para ser fiel ao display foi necessário acescentar 2px no width */
     left: -121px;
@@ -74,8 +74,22 @@ body {
 }
 
 .header-presentation-salutation-text {
-    display: inline-block;
     position: absolute;
+    display: inline-block;
+}
+
+.header-presentation-salutation-text:nth-child(1) {
+    left: -121px;   
+}
+
+.header-presentation-salutation-text:nth-child(2) {
+    top: 140px;
+    left: -121px; 
+}
+
+.header-presentation-salutation-text:nth-child(3) {
+    top: 280px;
+    left: -121px; 
 }
 
 
