@@ -140,7 +140,7 @@ body {
 
 .header-button:hover {
     cursor: pointer;
-    text-decoration: underline;
+    color: var(--black);
 }
 
 /* Work */
