@@ -392,6 +392,28 @@ body {
     text-decoration: underline;
 }
 
+.footer {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-content: center;
+    margin-top: 216px;
+    height: 208px;
+    background-color: rgba(var(--silver-light-rgb), .22);
+}
+
+.footer p {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 36px;
+    text-align: center;
+    letter-spacing: 0.385714px;
+    color: var(--silver-dark);
+    mix-blend-mode: normal;
+    opacity: 0.8;
+}
+
 
 
 
