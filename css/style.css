@@ -13,10 +13,12 @@
     --gray-bright: #EDEDED;
     --white: #FFF;   
 }
-  
-body {
-    font-family: 'Poppins', sans-serif;
-}
+
+@font-face {
+    font-family: 'Linoleo Script';
+    src: url("../font/LinoleoScript.otf") format('opentype');
+    src: url("../font/LinoleoScript.ttf") format('truetype');
+};
 
 .container {
     box-sizing: border-box;
@@ -46,6 +48,7 @@ body {
 }
 
 .header-menu-item  a {
+    font-family: 'Poppins', sans-serif;
     font-size: 16px;
     line-height: 24px;
     font-weight: 500;
@@ -69,6 +72,7 @@ body {
 
 .header-presentation-salutation {
     /* Para ser fiel ao display foi necessário acescentar 2px no width */
+    font-family: 'Poppins', sans-serif;
     left: -121px;
     max-width: 435px;
     padding-right: 60px;
@@ -99,6 +103,7 @@ body {
 }
 
 .header-presentation-description {   
+    font-family: 'Poppins', sans-serif;
     padding-left: 372px;  
     font-style: normal;
     font-weight: 400;
@@ -139,6 +144,7 @@ body {
 }
 
 .header-presentation-description-social-media a {
+    font-family: 'Poppins', sans-serif;
     font-style: normal;
     font-weight: 500;
     font-size: 16px;
@@ -149,6 +155,7 @@ body {
 }
 
 .header-button { 
+    font-family: 'Poppins', sans-serif;
     font-style: normal;
     font-weight: 500;
     font-size: 24px;
@@ -179,6 +186,7 @@ body {
 }
 
 .work-title {
+    font-family: 'Poppins', sans-serif;
     margin-top: 156.5px;
     margin-bottom: 52px;
     font-style: normal;
@@ -195,6 +203,7 @@ body {
 }
 
 .work-item-title-name {
+    font-family: 'Poppins', sans-serif;
     font-style: normal;
     font-weight: 500;
     font-size: 30px;
@@ -204,6 +213,7 @@ body {
 }
 
 .work-item-title-date {
+    font-family: 'Poppins', sans-serif;
     display: inline-block;
     font-style: normal;
     font-weight: 500;
@@ -217,6 +227,7 @@ body {
 }
 
 .work-item-description-text {
+    font-family: 'Poppins', sans-serif;
     display: inline-block;
     font-style: normal;
     font-weight: 400;
@@ -228,6 +239,7 @@ body {
 
 .work-item-description-skills {
     display: flex;
+    font-family: 'Poppins', sans-serif;
     font-style: normal;
     font-weight: 500;
     font-size: 12px;
@@ -237,6 +249,7 @@ body {
 }
 
 .work-item-description-skills-item {
+    font-family: 'Poppins', sans-serif;
     height: 32px;
     padding: 0 14px 0 14px;
     border-radius: 16px;
@@ -255,6 +268,7 @@ body {
 }
 
 .projects-title {
+    font-family: 'Poppins', sans-serif;
     font-style: normal;
     font-weight: 700;
     font-size: 80px;
@@ -291,6 +305,7 @@ body {
 .projects-item-description-title {
     margin-top: 80px;
     margin-bottom: 34px;
+    font-family: 'Poppins', sans-serif;
     font-style: normal;
     font-weight: 700;
     font-size: 60px;
@@ -300,6 +315,7 @@ body {
 }
 
 .projects-item-description-text {
+    font-family: 'Poppins', sans-serif;
     font-style: normal;
     font-weight: 400;
     font-size: 18px;
@@ -317,6 +333,7 @@ body {
 }
 
 .about-title {
+    font-family: 'Poppins', sans-serif;
     font-style: normal;
     font-weight: 700;
     font-size: 80px;
@@ -325,6 +342,7 @@ body {
 }
 
 .about-text {
+    font-family: 'Poppins', sans-serif;
     font-style: normal;
     font-weight: 400;
     font-size: 18px;
@@ -361,6 +379,7 @@ body {
     margin-left: 40px;
     margin-bottom: 3px;
     display: block;
+    font-family: 'Poppins', sans-serif;
     font-style: normal;
     font-weight: 500;
     font-size: 16px;
@@ -375,6 +394,7 @@ body {
     margin-left: 40px;
     margin-bottom: 18px;
     display: block;
+    font-family: 'Poppins', sans-serif;
     font-style: normal;
     font-weight: 400;
     font-size: 18px;
@@ -392,17 +412,31 @@ body {
     text-decoration: underline;
 }
 
+.about-signature {
+    display: block;
+    margin-top: 40px;
+    margin-left: 28px;
+    font-family: 'Linoleo Script';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 80px;
+    line-height: 76px;
+    letter-spacing: 1.71px;
+    color: #6D6D6D;
+}
+
 .footer {
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-content: center;
-    margin-top: 216px;
+    margin-top: 100px;
     height: 208px;
     background-color: rgba(var(--silver-light-rgb), .22);
 }
 
 .footer p {
+    font-family: 'Poppins', sans-serif;
     font-style: normal;
     font-weight: 400;
     font-size: 18px;
@@ -413,6 +447,9 @@ body {
     mix-blend-mode: normal;
     opacity: 0.8;
 }
+
+
+
 
 
 
